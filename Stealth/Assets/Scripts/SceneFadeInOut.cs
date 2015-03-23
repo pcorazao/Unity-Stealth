@@ -10,7 +10,7 @@ public class SceneFadeInOut : MonoBehaviour {
 
 	void Awake(){
 		var guiTextures = this.gameObject.GetComponents<GUITexture> ();
-		var guiTexture = guiTextures [0];
+		guiTexture = guiTextures [0];
 
 		guiTexture.pixelInset = new Rect (0f, 0f, Screen.width, Screen.height);
 	}
@@ -24,12 +24,12 @@ public class SceneFadeInOut : MonoBehaviour {
 
 	void FadeToClear()
 	{
-		guiTexture.color = Color.Lerp (GUITexture.color, Color.clear, fadeSpeed * Time.deltaTime);
+		guiTexture.color = Color.Lerp (guiTexture.color, Color.clear, fadeSpeed * Time.deltaTime);
 	}
 
 	void FadeToBlack()
 	{
-		guiTexture.color = Color.Lerp (GUITexture.color, Color.black, fadeSpeed * Time.deltaTime);
+		guiTexture.color = Color.Lerp (guiTexture.color, Color.black, fadeSpeed * Time.deltaTime);
 	}
 
 	void StartScene()
