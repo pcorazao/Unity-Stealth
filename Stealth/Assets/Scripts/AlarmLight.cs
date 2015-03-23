@@ -9,12 +9,14 @@ public class AlarmLight : MonoBehaviour {
 	public float changeMargin = 0.2f;
 	public bool alarmOn;
 
+
 	private Light light;
 	private float targetIntensity;
 
 	void Awake()
 	{
-		light = this.gameObject;
+		var lights = this.gameObject.GetComponents<Light> ();
+		light = lights [0];
 		light.intensity = 0f;
 		targetIntensity = highIntensity;
 	}
