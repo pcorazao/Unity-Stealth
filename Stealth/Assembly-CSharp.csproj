@@ -70,6 +70,7 @@
      <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\DoneAnimatorSetup.cs" />
      <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\DoneTags.cs" />
      <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\guiTextSet.cs" />
+     <Compile Include="Assets\Scripts\AlarmLight.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
@@ -150,6 +151,10 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{A8FBD332-5F5D-F360-DBF5-EFFD7B5991B7}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
