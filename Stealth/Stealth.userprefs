@@ -1,11 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/KeyPickup.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DoorAnimation.cs">
     <Files>
       <File FileName="Assets/Scripts/Player/PlayerMovement.cs" Line="43" Column="34" />
       <File FileName="Assets/Scripts/GameController/HashIDs.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Player/PlayerInventory.cs" Line="6" Column="21" />
-      <File FileName="Assets/KeyPickup.cs" Line="13" Column="37" />
+      <File FileName="Assets/Scripts/Player/PlayerInventory.cs" Line="1" Column="1" />
+      <File FileName="Assets/DoorAnimation.cs" Line="63" Column="17" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
