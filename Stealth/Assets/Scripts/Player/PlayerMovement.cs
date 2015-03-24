@@ -58,7 +58,7 @@ public class PlayerMovement : MonoBehaviour {
 	{
 		var audio = this.gameObject.GetComponent<AudioSource> ();
 
-		if (anim.GetCurrentAnimatorStateInfo (0).shortNameHash == hash.locomotionState) {
+		if (anim.GetCurrentAnimatorStateInfo (0).nameHash == hash.locomotionState) {
 			if (!audio.isPlaying) {
 				audio.Play ();
 			}

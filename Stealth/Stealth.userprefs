@@ -1,14 +1,24 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/PlayerMovement.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player/PlayerMovement.cs" Line="42" Column="41" />
+      <File FileName="Assets/Scripts/Player/PlayerMovement.cs" Line="59" Column="1" />
       <File FileName="Assets/Scripts/AlarmSystems/LaserSwitchDeactivation.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>anim.GetCurrentAnimatorStateInfo(0)</Value>
+          <Value>anim</Value>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/pcorazao/git/Unity-Stealth/Stealth/Assets/Scripts/AlarmLight.cs" line="37" />
+      <Breakpoint file="/Users/pcorazao/git/Unity-Stealth/Stealth/Assets/Scripts/AlarmSystems/LaserSwitchDeactivation.cs" line="31" />
+      <Breakpoint file="/Users/pcorazao/git/Unity-Stealth/Stealth/Assets/Scripts/Player/PlayerMovement.cs" line="59" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
