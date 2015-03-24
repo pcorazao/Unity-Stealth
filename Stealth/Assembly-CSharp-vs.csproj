@@ -87,6 +87,7 @@
      <Compile Include="Assets\Scripts\Player\PlayerInventory.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\ScreenFader\SceneFadeInOut.cs" />
+     <Compile Include="Assets\Scripts\Unapplied\AnimatorSetup.cs" />
      <Compile Include="Assets\Scripts\Unapplied\Tags.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
