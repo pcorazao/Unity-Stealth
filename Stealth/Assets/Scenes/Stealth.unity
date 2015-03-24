@@ -5711,6 +5711,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e324b88381f954b12bc17921d3e7b485, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 100
+  resetAfterDeathTime: 5
+  deathClip: {fileID: 0}
 --- !u!114 &947691188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6423,6 +6426,7 @@ GameObject:
   - 92: {fileID: 1857423547}
   - 124: {fileID: 1857423546}
   - 114: {fileID: 1857423550}
+  - 114: {fileID: 1857423545}
   m_Layer: 0
   m_Name: camera_main
   m_TagString: MainCamera
@@ -6430,6 +6434,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1857423545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857423544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca43949f40f6b46e4afa98d78380a056, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smooth: 1.5
 --- !u!124 &1857423546
 Behaviour:
   m_ObjectHideFlags: 0
@@ -6482,8 +6498,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1857423544}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.39999962, y: .699999988, z: -1.39999998}
+  m_LocalRotation: {x: -.374605477, y: .118284389, z: -.0482501835, w: -.918341696}
+  m_LocalPosition: {x: -.885894775, y: 5.53336954, z: -2.97832012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
