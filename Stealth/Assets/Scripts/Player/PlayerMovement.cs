@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	void Update()
 	{
-		bool shout = Input.GetButtonDown("Attact");
+		bool shout = Input.GetButtonDown("Attract");
 		anim.SetBool (hash.shoutingBool, shout);
 		AudioManagement (shout);
 	}

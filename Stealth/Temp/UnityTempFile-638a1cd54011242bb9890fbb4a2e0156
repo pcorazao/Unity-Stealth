@@ -87,6 +87,7 @@
 'Assets/Scripts/AlarmSystems/LaserSwitchDeactivation.cs'
 'Assets/Scripts/GameController/HashIDs.cs'
 'Assets/Scripts/GameController/LastPlayerSighting.cs'
+'Assets/Scripts/Player/PlayerMovement.cs'
 'Assets/Scripts/ScreenFader/SceneFadeInOut.cs'
 'Assets/Scripts/Unapplied/Tags.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
