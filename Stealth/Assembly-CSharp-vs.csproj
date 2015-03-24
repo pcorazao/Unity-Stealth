@@ -78,7 +78,9 @@
      <Compile Include="Assets\Scripts\GameController\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\GameController\HashIDs.cs" />
      <Compile Include="Assets\Scripts\GameController\LastPlayerSighting.cs" />
+     <Compile Include="Assets\Scripts\LevelDynamics\KeyPickup.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerInventory.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\ScreenFader\SceneFadeInOut.cs" />
      <Compile Include="Assets\Scripts\Unapplied\Tags.cs" />
