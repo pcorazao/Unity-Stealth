@@ -70,6 +70,7 @@
      <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\DoneAnimatorSetup.cs" />
      <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\DoneTags.cs" />
      <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\guiTextSet.cs" />
+     <Compile Include="Assets\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\AlarmSystems\AlarmLight.cs" />
      <Compile Include="Assets\Scripts\AlarmSystems\CCTVPlayerDetection.cs" />
      <Compile Include="Assets\Scripts\AlarmSystems\LaserBlinking.cs" />
