@@ -81,6 +81,7 @@
      <Compile Include="Assets\Scripts\LevelDynamics\DoorAnimation.cs" />
      <Compile Include="Assets\Scripts\LevelDynamics\KeyPickup.cs" />
      <Compile Include="Assets\Scripts\LevelDynamics\LiftDoorsTracking.cs" />
+     <Compile Include="Assets\Scripts\LevelDynamics\LiftTrigger.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerInventory.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
