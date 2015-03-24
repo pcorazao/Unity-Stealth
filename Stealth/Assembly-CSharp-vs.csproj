@@ -75,6 +75,7 @@
      <Compile Include="Assets\Scripts\AlarmSystems\LaserBlinking.cs" />
      <Compile Include="Assets\Scripts\AlarmSystems\LaserPlayerDetection.cs" />
      <Compile Include="Assets\Scripts\AlarmSystems\LaserSwitchDeactivation.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemySight.cs" />
      <Compile Include="Assets\Scripts\GameController\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\GameController\HashIDs.cs" />
      <Compile Include="Assets\Scripts\GameController\LastPlayerSighting.cs" />
