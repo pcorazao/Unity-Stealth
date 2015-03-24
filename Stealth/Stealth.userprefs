@@ -1,14 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EnemyShooting.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy/EnemyShooting.cs">
     <Files>
       <File FileName="Assets/Scripts/Player/PlayerMovement.cs" Line="43" Column="34" />
       <File FileName="Assets/Scripts/GameController/HashIDs.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Player/PlayerInventory.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/LevelDynamics/LiftDoorsTracking.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Unapplied/AnimatorSetup.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Enemy/EnemyAnimation.cs" Line="71" Column="55" />
-      <File FileName="Assets/EnemyShooting.cs" Line="58" Column="68" />
+      <File FileName="Assets/Scripts/Enemy/EnemyAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Enemy/EnemyAI.cs" Line="72" Column="39" />
+      <File FileName="Assets/Scripts/Enemy/EnemyShooting.cs" Line="59" Column="3" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
