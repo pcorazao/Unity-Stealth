@@ -1,15 +1,21 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy/EnemyShooting.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/PlayerHealth.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player/PlayerMovement.cs" Line="43" Column="34" />
+      <File FileName="Assets/Scripts/Enemy/EnemyAI.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/PlayerMovement.cs" Line="43" Column="1" />
       <File FileName="Assets/Scripts/GameController/HashIDs.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Player/PlayerInventory.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/LevelDynamics/LiftDoorsTracking.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Unapplied/AnimatorSetup.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Enemy/EnemyAnimation.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Enemy/EnemyAI.cs" Line="72" Column="39" />
       <File FileName="Assets/Scripts/Enemy/EnemyShooting.cs" Line="59" Column="3" />
+      <File FileName="Assets/Scripts/AlarmSystems/LaserSwitchDeactivation.cs" Line="31" Column="60" />
+      <File FileName="Assets/Scripts/Player/PlayerHealth.cs" Line="74" Column="1" />
+      <File FileName="Assets/Scripts/Enemy/EnemySight.cs" Line="150" Column="2" />
+      <File FileName="Assets/Scripts/GameController/LastPlayerSighting.cs" Line="54" Column="1" />
+      <File FileName="Assets/Scripts/AlarmSystems/AlarmLight.cs" Line="37" Column="1" />
+      <File FileName="Assets/Scripts/AlarmSystems/LaserPlayerDetection.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -20,9 +26,8 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/pcorazao/git/Unity-Stealth/Stealth/Assets/Scripts/AlarmLight.cs" line="37" />
-      <Breakpoint file="/Users/pcorazao/git/Unity-Stealth/Stealth/Assets/Scripts/AlarmSystems/LaserSwitchDeactivation.cs" line="31" />
-      <Breakpoint file="/Users/pcorazao/git/Unity-Stealth/Stealth/Assets/Scripts/Player/PlayerMovement.cs" line="43" />
-      <Breakpoint file="/Users/pcorazao/git/Unity-Stealth/Stealth/Assets/Scripts/LevelDynamics/LiftDoorsTracking.cs" line="38" />
+      <Breakpoint file="/Users/pcorazao/git/Unity-Stealth/Stealth/Assets/Scripts/Player/PlayerHealth.cs" line="74" />
+      <Breakpoint file="/Users/pcorazao/git/Unity-Stealth/Stealth/Assets/Scripts/GameController/LastPlayerSighting.cs" line="54" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
