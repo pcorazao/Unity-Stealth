@@ -9,7 +9,7 @@ public class LastPlayerSighting : MonoBehaviour
 	public float lightLowIntensity = 0f;                                // The directional light's intensity when the alarms are on.
 	public float fadeSpeed = 7f;                                        // How fast the light fades between low and high intensity.
 	public float musicFadeSpeed = 1f;                                   // The speed at which the 
-	
+	public bool playerDead = false;
 	
 	private AlarmLight alarm;                                           // Reference to the AlarmLight script.
 	private Light mainLight;                                            // Reference to the main light.
@@ -68,16 +68,24 @@ public class LastPlayerSighting : MonoBehaviour
 		
 		// Fade the directional light's intensity in or out.
 		mainLight.intensity = Mathf.Lerp(mainLight.intensity, newIntensity, fadeSpeed * Time.deltaTime);
+
+
+		if (playerDead) {
+			for (int i = 0; i < sirens.Length; i++) {
+				sirens [i].Stop ();
+			}
+		} else {
 		
-		// For all of the sirens...
-		for(int i = 0; i < sirens.Length; i++)
-		{
-			// ... if alarm is triggered and the audio isn't playing, then play the audio.
-			if(position != resetPosition && !sirens[i].isPlaying)
-				sirens[i].Play();
+
+			// For all of the sirens...
+			for (int i = 0; i < sirens.Length; i++) {
+				// ... if alarm is triggered and the audio isn't playing, then play the audio.
+				if (position != resetPosition && !sirens [i].isPlaying)
+					sirens [i].Play ();
 			// Otherwise if the alarm isn't triggered, stop the audio.
-			else if(position == resetPosition)
-				sirens[i].Stop();
+			else if (position == resetPosition)
+					sirens [i].Stop ();
+			}
 		}
 	}
 	

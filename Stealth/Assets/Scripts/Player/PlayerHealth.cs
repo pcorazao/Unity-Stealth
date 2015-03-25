@@ -72,7 +72,9 @@ public class PlayerHealth : MonoBehaviour
 		
 		// Reset the player sighting to turn off the alarms.
 		lastPlayerSighting.position = lastPlayerSighting.resetPosition;
-		
+
+		lastPlayerSighting.playerDead = true;
+
 		// Stop the footsteps playing.
 		GetComponent<AudioSource>().Stop();
 	}
