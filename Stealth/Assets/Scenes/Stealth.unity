@@ -6527,7 +6527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 2
   highIntensity: 2
-  lowIntenssity: .5
+  lowIntensity: .5
   changeMargin: .200000003
   alarmOn: 0
 --- !u!1 &1310644084
